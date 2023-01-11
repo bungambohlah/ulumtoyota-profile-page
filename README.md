@@ -21,7 +21,7 @@ It is basically what is presented in the [Upstash + Next.js quickstart](https://
 
 ## Screenshots
 
-![Screenshot](screenshot.png)
+![Screenshot](screenshots/screenshot.png)
 
 ## About The Creator
 
