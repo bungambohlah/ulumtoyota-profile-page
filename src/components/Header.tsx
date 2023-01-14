@@ -10,11 +10,14 @@ export default function Header() {
         width={125}
         height={125}
       />
-      <div className="flex flex-col items-center justify-center gap-1 font-medium text-white">
+      <div className="flex flex-col items-center justify-center gap-2 font-medium text-white">
         <span className="text-lg">Ulum Toyota</span>
-        <span className="text-gray-200 text-md motion-safe:animate-pulse">
-          Best Toyota Sales Marketer
-        </span>
+        <div className="flex items-center gap-2 justify-items-end">
+          <span className="text-gray-200 text-md">Toyota Sales</span>
+          <span className="bg-red-100 text-red-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded motion-safe:animate-bounce">
+            Professional
+          </span>
+        </div>
       </div>
     </header>
   );
